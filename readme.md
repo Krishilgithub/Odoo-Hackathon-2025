@@ -15,6 +15,7 @@ This backend powers the ReWear platform — a community-driven clothing exchange
 ---
 
 ## 🧱 Database Design (Prisma Schema)
+```prisma
 
 generator client {
   provider = "prisma-client-js"
@@ -119,6 +120,7 @@ enum SwapMethod {
   POINTS
 }
 
+```
 
 ### ✅ Entities
 
