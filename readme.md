@@ -23,16 +23,20 @@ To improve user experience and streamline the item listing process by integratin
 
 ## 🧪 Model Details
 
-- **Type**: Image Classification
-- **Training Tool**: Teachable Machine GUI
+- **Type**: Image Classification  
+- **Training Tool**: Teachable Machine GUI  
 - **Classes**:
-  - T-shirt
-  - Kurta
-  - Dress
-  - Jeans
-  - Shirt
-  - Jacket
-- **Training Data**: ~10 sample images per class (custom, small-scale for demo)
+  - T-shirt  
+  - Shirt  
+  - Kurta  
+  - Dress  
+  - Jeans  
+  - Jacket  
+  - Skirt  
+  - Saree  
+  - Sweater/Hoodie  
+  - Shorts  
+- **Training Data**: ~10 sample images per class (custom, small-scale for demo/MVP)
 
 ---
 
@@ -46,12 +50,9 @@ To improve user experience and streamline the item listing process by integratin
 
 ## 🔮 Future Work
 
-- Improve model with more diverse and higher-quality data
-- Expand tags to include:
-  - **Material** (cotton, denim, wool)
-  - **Occasion** (casual, formal)
-  - **Condition** (new, lightly used)
-- Integrate feedback loop to refine predictions
+- Improve model with more diverse and higher-quality training data  
+- Add multi-label support for material, condition, and occasion  
+- Introduce feedback loop to continuously fine-tune predictions
 
 ---
 
